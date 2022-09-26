@@ -6,7 +6,7 @@ public class Main {
         int rows = 5, ch = 65, q = 0;
         for (int i = 0; i < rows; i++) {
             q = 0;
-            for (int k = 0; k <= (rows - i); k++) {
+            for (int k = 0; k < (rows - i); k++) {
 
                 System.out.print(" ");
             }
